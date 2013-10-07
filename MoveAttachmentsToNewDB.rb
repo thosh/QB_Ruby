@@ -2,8 +2,8 @@ require 'quickbase_client'
 
 orig_tableDBID = "bgrhxym7s"
 target_tableDBID = "bhx9udwg6"
-username = "tom.p.shannon@gmail.com"
-password = "e7AI2GOQ"
+username = ""
+password = ""
 
 #new QB requirement: must include "org", i.e. www.vinculums.quickbase.com
 qbc = QuickBase::Client.init({"username" => username, "password" => password,  "org" => "vinculums"})
