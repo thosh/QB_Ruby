@@ -6,8 +6,8 @@ include REXML
 
 orig_tableDBID = "bgrhxym7s"
 target_tableDBID = "bhesz6sig"
-username = "tom.p.shannon@gmail.com"
-password = "e7AI2GOQ"
+username = ""
+password = ""
 file_destination = File.dirname(__FILE__)
 
 my_rids = []
