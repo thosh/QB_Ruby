@@ -14,8 +14,8 @@ vx25_wo_fcst_dates = []
 vx25_wo_act_dates = []
 
 
-username = "tom.p.shannon@gmail.com"
-password = "e7AI2GOQ"
+username = ""
+password = ""
 
 #new QB requirement: must include "org", i.e. www.vinculums.quickbase.com
 qbc = QuickBase::Client.init({"username" => username, "password" => password,  "org" => "vinculums"})
