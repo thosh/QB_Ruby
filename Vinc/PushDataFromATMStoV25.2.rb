@@ -16,8 +16,8 @@ proj_no_and_milestones = []
 caspr_forecast_texts = []
 caspr_actual_texts = []
 
-username = "tom.p.shannon@gmail.com"
-password = "e7AI2GOQ"
+username = ""
+password = ""
 
 #new QB requirement: must include "org", i.e. www.vinculums.quickbase.com
 qbc = QuickBase::Client.init({"username" => username, "password" => password,  "org" => "vinculums"})
